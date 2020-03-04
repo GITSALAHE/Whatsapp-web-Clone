@@ -1,0 +1,196 @@
+header{
+    height: 127px;
+    background-color: #009688;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #D9DBD5;
+}
+.container{
+    width: 1396px;
+    height: 909px;
+    position: absolute;
+    background: white;
+    margin: auto;
+    left: 264px;
+    bottom: 15px;
+}
+.side{
+    width: 418.813px;
+    height: 909px;
+    position: absolute;
+    border-right: 1px solid #D3D3D3;
+}
+.head-side{
+    padding: 10px 16px;
+    background-color:#EDEDED;
+    height: 39px;
+}
+.img-profile{
+    border-radius: 50%;
+    width: 40px;
+}
+.icone{
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+    margin-top: 8px;
+}
+.icone li{
+    margin-left: 19px;
+    color: gray; 
+}
+.search{
+    height: 49px;
+    background-color: whitesmoke;
+}
+.search input{
+    width: 392px;
+    margin: auto;
+    height: 33px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 13px;
+    margin-top: 4px;
+    outline: none;
+}
+#all{
+    height: 788px;
+    background-image: url(1.png);
+    width: 976px;
+    position: relative;
+    left: 420px;
+    overflow: auto;
+}
+.pr{
+    background-color: #EDEDED;
+    height: 39px;
+    padding: 10px 16px;
+    margin-left: 419px;
+}
+.send{
+    height: 62px;
+    margin-left: 419px;
+    background-color: #EDEDED;
+}
+#emoji{
+    font-size: 24px;
+    color: gray;
+    left: 13px;
+    position: relative;
+    top: 18px;
+}
+#msg {
+    position: relative;
+    left: 25px;
+    width: 864px;
+    height: 31px;
+    border-radius: 10px;
+    border: none;
+    top: 15px;
+    outline: none;
+}
+.sending{
+    width: 26px;
+    height: 24px;
+    position: absolute;
+    left: 1364px;
+    top: 876px;
+    cursor: pointer;
+}
+.member{
+    border-bottom: 1px solid #D3D3D3;
+    height: 72px;
+}
+.member:hover{
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.mem-img{
+    border-radius: 50%;
+    width: 49px;
+    padding: 10px 16px;
+}
+.m-name{
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    position: relative;
+    bottom: 32px;
+    left: 41px;
+    font-size: 21px;
+}
+.m-date{
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    position: relative;
+    bottom: 38px;
+    left: 116px;
+    font-size: 10px;
+}
+.nav-img{
+    width: 49px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 4px;
+}
+.nav-name{
+font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+position: relative;
+bottom: 27px;
+left: 9px;
+}
+.nav-etat{
+font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+right: 101px;
+font-size: 12px;
+bottom: 6px;
+position: relative;
+}
+.nav-icone{
+list-style: none;
+display: inline-flex;
+float: right;
+margin-top: 7px;
+color: gray;
+}
+.nav-icone li {
+    margin-left: 26px;
+}
+.msg{
+float: right;
+position: relative;
+right: 68px;
+padding: 6px 7px 8px 9px;
+background: #dcf8c6;
+border-radius: 7.5px;
+font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+}
+.sending1{
+width: 26px;
+height: 24px;
+position: absolute;
+left: 1364px;
+cursor: pointer;
+}
+.msg1{
+position: relative;
+left: 57px;
+padding: 6px 7px 8px 9px;
+background: #fff;
+border-radius: 7.5px;
+font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+
+}
+.us1{
+position: relative;
+left: 22px;
+top: 26px;
+font-family: Montserrat;
+font-size: 14px;
+}
+.us2{
+position: relative;
+right: 7px;
+font-family: Montserrat;
+font-size: 14px;
+}
