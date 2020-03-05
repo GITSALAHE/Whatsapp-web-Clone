@@ -1,5 +1,10 @@
 function sendUser1(){
     var textzone = document.getElementById("msg").value;
+    if(textzone.length <= 0){
+        return;
+    }
+    var x = document.getElementById("m-txt");
+    x.innerHTML = "vous : "+textzone;
     var res = document.getElementById("all");
     var label = document.createElement("label");
     var esp0 = document.createElement("br");
@@ -15,9 +20,15 @@ function sendUser1(){
     label.innerText = textzone;
     res.scrollBy(0, 100000);
     document.getElementById("msg").value = '';
+   
 }   
 function sendUser2(){
     var textzone = document.getElementById("msg").value;
+    if(textzone.length <= 0){
+        return;
+    }
+    var x = document.getElementById("m-txt");
+    x.innerHTML = "youssef : "+textzone;
     var res = document.getElementById("all");
     var label = document.createElement("label");
     var esp0 = document.createElement("br");

@@ -39,7 +39,8 @@ body{
 }
 .icone li{
     margin-left: 19px;
-    color: gray; 
+    color: gray;
+    cursor: pointer; 
 }
 .search{
     height: 49px;
@@ -99,6 +100,10 @@ body{
     top: 876px;
     cursor: pointer;
 }
+.sending:after{
+    border-radius: 50%;
+    width: ;
+}
 .member{
     border-bottom: 1px solid #D3D3D3;
     height: 72px;
@@ -155,6 +160,7 @@ color: gray;
 }
 .nav-icone li {
     margin-left: 26px;
+    cursor: pointer;
 }
 .msg{
 float: right;
@@ -193,4 +199,12 @@ position: relative;
 right: 7px;
 font-family: Montserrat;
 font-size: 14px;
+}
+#m-txt{
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 125px;
+    bottom: 43px;
+    width: 294px;
 }
