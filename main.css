@@ -97,7 +97,7 @@ body{
     height: 24px;
     position: absolute;
     left: 1364px;
-    top: 876px;
+    top: 857px;
     cursor: pointer;
 }
 .sending:after{
@@ -172,11 +172,12 @@ border-radius: 7.5px;
 font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
 }
 .sending1{
-width: 26px;
-height: 24px;
-position: absolute;
-left: 1364px;
-cursor: pointer;
+    width: 26px;
+    height: 24px;
+    position: absolute;
+    left: 1364px;
+    cursor: pointer;
+    bottom: 1px;
 }
 .msg1{
 position: relative;
@@ -188,17 +189,18 @@ font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantar
 
 }
 .us1{
-position: relative;
-left: 22px;
-top: 26px;
-font-family: Montserrat;
-font-size: 14px;
+    position: relative;
+    left: 914px;
+    font-family: Montserrat;
+    font-size: 14px;
+    bottom: 11px;
 }
 .us2{
-position: relative;
-right: 7px;
-font-family: Montserrat;
-font-size: 14px;
+    position: relative;
+    left: 885px;
+    font-family: Montserrat;
+    font-size: 14px;
+    bottom: 38px;
 }
 #m-txt{
     font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
@@ -208,3 +210,22 @@ font-size: 14px;
     bottom: 43px;
     width: 294px;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

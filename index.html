@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
     <link id="favicon" rel="shortcut icon" type="image/png" href="favicone.png" src="favicon.png">
+    <link rel='stylesheet' href='https://onesignal.github.io/emoji-picker/lib/css/emoji.css'>
+    <link rel="stylesheet" href="emoji.css">
+    
 </head>
 <body>
     <header>
@@ -48,15 +51,29 @@
 
         </div>
         <div class="send">
-            <i class="far fa-grin" id="emoji"></i>
-            <input type="text" id="msg" placeholder="taper votre message">
-            <span class="us1">Us1</span>
-            <span class="us2">Us2</span>
+            <textarea type="textbox" data-emoji-input="unicode" class="form-control" placeholder="Tapez votre message" data-emojiable="true" id="msg"></textarea>
+            <span class="us1">Us2</span>
+            <span class="us2">Us1</span>
             <img src="send.png" alt="" class="sending" onclick="sendUser1()">
             <img src="send.png" alt="" class="sending1" onclick="sendUser2()">
         </div>
     </div>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="main.js"></script>
-</body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+     <script src='https://onesignal.github.io/emoji-picker/lib/js/config.js'></script>
+     <script src='https://onesignal.github.io/emoji-picker/lib/js/util.js'></script>
+     <script src='https://onesignal.github.io/emoji-picker/lib/js/jquery.emojiarea.js'></script>
+     <script src='https://onesignal.github.io/emoji-picker/lib/js/emoji-picker.js'></script>
+     <script>
+        $(function() {
+        window.emojiPicker = new EmojiPicker({
+          emojiable_selector: '[data-emojiable=true]',
+          assetsPath: 'http://onesignal.github.io/emoji-picker/lib/img/',
+          popupButtonClasses: 'fa fa-smile-o'
+        });
+        window.emojiPicker.discover();
+      });
+
+    </script>
 </html>
